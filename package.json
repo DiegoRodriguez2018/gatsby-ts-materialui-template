@@ -1,0 +1,41 @@
+{
+    "name": "gastby-ts-template",
+    "private": true,
+    "description": "gatsby-ts-template",
+    "version": "0.1.0",
+    "license": "MIT",
+    "scripts": {
+      "buildSite": "gatsby build",
+      "dev": "gatsby develop",
+      "develop": "gatsby develop",
+      "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+      "start": "npm run develop",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean",
+      "lint": "eslint . --ext .ts,.tsx",
+      "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+      "type-check": "tsc --noEmit"
+    },
+    "dependencies": {
+      "@material-ui/core": "^4.11.0",
+      "@types/react": "^16.9.44",
+      "@types/react-helmet": "^6.1.0",
+      "@types/styled-components": "^5.1.2",
+      "babel-plugin-styled-components": "^1.10.7",
+      "gatsby": "^2.23.18",
+      "gatsby-plugin-styled-components": "^3.3.10",
+      "gatsby-theme-material-ui": "^1.0.12",
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+      "react-helmet": "^6.1.0",
+      "styled-components": "^5.1.1",
+      "typescript": "^3.9.7"
+    },
+    "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "^4.1.1",
+      "@typescript-eslint/parser": "^4.1.1",
+      "eslint": "^7.9.0",
+      "eslint-plugin-react": "^7.20.6",
+      "prettier": "2.0.5"
+    }
+  }  
